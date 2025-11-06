@@ -1,11 +1,19 @@
 package PageObjects;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class User_Registration_Page extends Base_Page {
+	
+	
+	
 	
 	public User_Registration_Page(WebDriver driver) {
 		super(driver);
@@ -15,7 +23,7 @@ public class User_Registration_Page extends Base_Page {
 	@FindBy(xpath="//img[@alt=\"Website for automation practice\"]")
 	WebElement logo;
 	
-	@FindBy(xpath="//a[@href=\"/login\"]")
+	@FindBy(xpath="//a[normalize-space()='Signup / Login']")
 	WebElement linkOnSignup_Login;
 	
 	@FindBy(xpath="//h2[normalize-space()='New User Signup!']")
@@ -26,6 +34,9 @@ public class User_Registration_Page extends Base_Page {
 	
 	@FindBy(xpath="//input[@data-qa='signup-email']")
 	WebElement input_Email;
+	
+	@FindBy(xpath="//button[normalize-space()='Signup']")
+	WebElement btnSignup;
 	
 	@FindBy(xpath="//b[normalize-space()='Enter Account Information']")
 	WebElement txtMsg_EnterAccountInformation;
@@ -91,30 +102,36 @@ public class User_Registration_Page extends Base_Page {
 	WebElement btnContinue;
 	
 	@FindBy(xpath="//b[normalize-space()='TesterUser']")
-	WebElement txtUsername;
+	By txtUsername;
 	
-	public void verifylogo() {
-		logo.isDisplayed();
+	public boolean verifylogo() {
+		return (logo.isDisplayed());
 	}
 	
 	public void clickOnSignup_login() {
 		linkOnSignup_Login.click();
 	}
 	
-	public void verifyaccountinformationform() {
-		txtMsg_EnterAccountInformation.getText();
+	public String verifysigupform() {
+		return txtMsgNewUserSignup.getText();
 	}
 	
-	public void EnterName(String name) {
+	
+	public String EnterName(String name) {
 		input_Name.sendKeys(name);
+		return name;
 	}
 	
 	public void EnterEmail(String email) {
 		input_Email.sendKeys(email);
 	}
 	
-	public void verifysigupform() {
-		txtMsgNewUserSignup.getText();
+	public void clickOnSignup() {
+		btnSignup.click();
+	}
+	
+	public String verifyaccountinformationform() {
+		return txtMsg_EnterAccountInformation.getText();
 	}
 	
 	public void clickOnTitle() {
@@ -197,16 +214,17 @@ public class User_Registration_Page extends Base_Page {
 		btnCreateaccount.click();
 	}
 	
-	public void verifyaccountcreated() {
-		txtMsgAccountCreated.getText();
+	public String verifyaccountcreated() {
+		return (txtMsgAccountCreated.getText());
 	}
 	
 	public void clickOncontinue() {
 		btnContinue.click();
 	}
 	
-	public void verifyUserloggedin() {
-		txtUsername.getText();
+	public boolean verifyUserloggedin() {
+		
+		return (wait.until(ExpectedConditions.visibilityOfElementLocated(txtUsername)).isDisplayed());
 	}
 	
 

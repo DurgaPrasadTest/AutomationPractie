@@ -1,0 +1,53 @@
+20:15:22.821 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
+
+20:16:58.077 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
+20:16:58.434 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
+
+20:22:03.130 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
+20:22:03.452 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
+
+20:53:51.021 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
+20:53:51.302 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
+
+21:00:36.090 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\AppData\Local\Temp\testng-eclipse--238177476\testng-customsuite.xml"
+21:00:36.274 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.277 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+21:00:36.278 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.279 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.279 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.279 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.280 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.280 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.284 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+21:00:36.293 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+21:00:36.294 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.295 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.295 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.296 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.296 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.296 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.298 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.298 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.299 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.299 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.301 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.301 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.301 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.301 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.302 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+21:00:36.302 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+21:00:36.303 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+21:00:36.308 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\Temp\testng-eclipse--238177476\testng-customsuite.xml
+
+21:00:36.324 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+21:00:36.569 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@53499d85: 106 ms
+21:00:36.592 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@455351c4: 23 ms
+21:00:36.606 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7e70bd39: 13 ms

@@ -1,2 +1,3 @@
 User: TesterUser
 Email: premaki155@gmail.com
+pass: Admin@123
