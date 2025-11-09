@@ -129,18 +129,11 @@
                   <a name="VerifyUserRegistration">
                   </a> <!-- VerifyUserRegistration -->
                   <span class="method-name">VerifyUserRegistration</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //b[normalize-space()=&apos;TesterUser&apos;] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.134, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49388}, goog:processID: 14136, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49388/devtoo..., se:cdpVersion: 142.0.7444.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9641aee168990131f0f8c2f33715b8b9
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at PageObjects.User_Registration_Page.verifyUserloggedin(User_Registration_Page.java:227)
-	at TestCases.TC001_User_Registration.VerifyUserRegistration(TC001_User_Registration.java:55)
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [Logged in as	LNYFL] but found [Logged in as LNYFL]
+	at TestCases.TC001_User_Registration.VerifyUserRegistration(TC001_User_Registration.java:57)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -207,12 +200,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'VerifyUserRegistration')
 data.setCell(0, 2, 'TestCases.TC001_User_Registration')
-data.setCell(0, 3, 19361);
+data.setCell(0, 3, 10530);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -247,11 +240,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">VerifyUserRegistration</span>
-                <span class="method-start">4782 ms</span>
+                <span class="method-start">4972 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">24410 ms</span>
+                <span class="method-start">15783 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

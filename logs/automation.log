@@ -1,35 +1,38 @@
-21:00:36.617 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@67ef029: 11 ms
-21:00:36.628 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@61edc883: 6 ms
-21:00:36.628 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@758f4f03: 0 ms
-21:00:50.200 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
-21:00:50.449 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
+15:31:45.797 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:31:45.801 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:31:45.803 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:31:45.803 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:31:45.803 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:31:45.803 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:31:45.806 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:31:45.807 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:31:45.807 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:31:45.807 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:31:45.808 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:31:45.809 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:31:45.810 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:31:45.810 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:31:45.810 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:31:45.810 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:31:45.814 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1658850609\testng-customsuite.xml
 
-21:12:37.489 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
-21:12:37.746 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
+15:31:45.830 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+15:31:46.002 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@24f360b2: 57 ms
+15:31:46.022 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@7cc586a8: 20 ms
+15:31:46.032 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@1eef9aef: 10 ms
+15:31:46.043 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4cc547a: 10 ms
+15:31:46.047 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@61edc883: 4 ms
+15:31:46.047 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@758f4f03: 0 ms
+15:31:59.362 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml"
+15:31:59.560 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml
 
-21:14:18.434 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
-21:14:18.678 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
+15:32:44.287 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml"
+15:32:44.487 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml
 
-21:27:08.473 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
-21:27:08.728 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
-
-21:28:30.987 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
-21:28:31.242 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
-
-21:29:44.544 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
-21:29:44.786 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
-
-21:31:47.890 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml"
-21:31:48.323 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
-
-15:17:23.362 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml"
-15:17:23.592 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:33:57.831 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml"
+15:33:58.027 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml
 

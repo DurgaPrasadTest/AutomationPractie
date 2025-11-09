@@ -101,7 +101,7 @@ public class User_Registration_Page extends Base_Page {
 	@FindBy(xpath="//a[@data-qa=\"continue-button\"]")
 	WebElement btnContinue;
 	
-	@FindBy(xpath="//b[normalize-space()='TesterUser']")
+	@FindBy(xpath="//header[@id='header']//li[10]//a[1]")
 	By txtUsername;
 	
 	public boolean verifylogo() {
@@ -224,7 +224,7 @@ public class User_Registration_Page extends Base_Page {
 	
 	public String verifyUserloggedin() {
 		
-		return (wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//b[normalize-space()='TesterUser']"))).getText());
+		return (wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//header[@id='header']//li[10]//a[1]"))).getText());
 	}
 	
 
