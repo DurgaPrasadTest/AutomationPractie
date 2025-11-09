@@ -29,3 +29,7 @@
 21:31:48.323 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Dell\eclipse-workspace-New\AutomationPractice\testng.xml
 
+15:17:23.362 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml"
+15:17:23.592 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml
+

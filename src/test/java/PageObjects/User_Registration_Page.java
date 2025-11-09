@@ -222,9 +222,9 @@ public class User_Registration_Page extends Base_Page {
 		btnContinue.click();
 	}
 	
-	public boolean verifyUserloggedin() {
+	public String verifyUserloggedin() {
 		
-		return (wait.until(ExpectedConditions.visibilityOfElementLocated(txtUsername)).isDisplayed());
+		return (wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//b[normalize-space()='TesterUser']"))).getText());
 	}
 	
 

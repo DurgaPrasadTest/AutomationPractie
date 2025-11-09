@@ -52,8 +52,8 @@ public class TC001_User_Registration extends BaseClass {
 		String accountcreate=urp.verifyaccountcreated();
 		softassert.assertEquals(accountcreate,"ACCOUNT CREATED!");
 		urp.clickOncontinue();
-		boolean userverify=urp.verifyUserloggedin();
-		softassert.assertEquals(userverify,true);
+		String userverify=urp.verifyUserloggedin();
+		softassert.assertEquals(userverify,Uname);
 		softassert.assertAll();
 		
 	}
