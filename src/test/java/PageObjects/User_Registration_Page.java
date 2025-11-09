@@ -102,7 +102,18 @@ public class User_Registration_Page extends Base_Page {
 	WebElement btnContinue;
 	
 	@FindBy(xpath="//header[@id='header']//li[10]//a[1]")
-	By txtUsername;
+	WebElement txtUsername;
+	
+	//String txtUsername1=(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//header[@id='header']//li[10]//a[1]"))).getText());
+	
+	@FindBy(xpath="//a[normalize-space()='Delete Account']")
+	WebElement deleteaccount;
+	
+	@FindBy(xpath="//b[normalize-space()='Account Deleted!']")
+	WebElement accountdeleted;
+	
+	@FindBy(xpath="//a[@class='btn btn-primary']")
+	WebElement contiune;
 	
 	public boolean verifylogo() {
 		return (logo.isDisplayed());
@@ -224,9 +235,20 @@ public class User_Registration_Page extends Base_Page {
 	
 	public String verifyUserloggedin() {
 		
-		return (wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//header[@id='header']//li[10]//a[1]"))).getText());
+		return (txtUsername.getText());
 	}
 	
+	public void clickondeleteaccount() {
+		deleteaccount.click();
+	}
+	
+	public String verifyaccountdeleted() {
+		return (accountdeleted.getText());
+	}
+	
+	public void clikoncontinue() {
+		contiune.click();
+	}
 
 }
 

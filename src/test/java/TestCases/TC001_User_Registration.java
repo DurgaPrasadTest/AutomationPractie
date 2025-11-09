@@ -4,8 +4,6 @@ package TestCases;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -53,7 +51,7 @@ public class TC001_User_Registration extends BaseClass {
 		softassert.assertEquals(accountcreate,"ACCOUNT CREATED!");
 		urp.clickOncontinue();
 		String userverify=urp.verifyUserloggedin();
-		softassert.assertEquals(userverify,"Logged in as\t"+Uname);
+		softassert.assertEquals(userverify,"Logged in as "+Uname);
 		softassert.assertAll();
 		
 	}
