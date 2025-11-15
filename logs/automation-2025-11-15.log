@@ -1,0 +1,51 @@
+15:13:09.755 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login/Registration Page is opened & click on signup**********
+15:13:11.130 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login form**********
+15:13:11.340 [main] INFO  TestCases.TC002_Login_Page - ********Enter Email and Password**********
+15:13:11.985 [main] INFO  TestCases.TC002_Login_Page - ********Click on Login**********
+15:13:12.183 [main] INFO  TestCases.TC002_Login_Page - ********Verification of login user**********
+15:13:14.096 [main] INFO  TestCases.TC002_Login_Page - ********Login/Registration Page is Opened**********
+15:13:14.105 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login/Registration Page is opened & click on signup**********
+15:18:09.113 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml"
+15:18:09.857 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml
+
+15:18:18.381 [main] INFO  TestCases.TC002_Login_Page - ********Login/Registration Page is Opened**********
+15:18:18.522 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login/Registration Page is opened & click on signup**********
+15:18:19.872 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login form**********
+15:18:19.945 [main] INFO  TestCases.TC002_Login_Page - ********Enter Email and Password**********
+15:18:20.580 [main] INFO  TestCases.TC002_Login_Page - ********Click on Login**********
+15:18:22.807 [main] INFO  TestCases.TC002_Login_Page - ********Verification of login user**********
+15:18:24.453 [main] INFO  TestCases.TC002_Login_Page - ********Login/Registration Page is Opened**********
+15:18:24.454 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login/Registration Page is opened & click on signup**********
+15:18:25.805 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login form**********
+15:18:25.862 [main] INFO  TestCases.TC002_Login_Page - ********Enter correct email and incorrect password**********
+15:18:26.490 [main] INFO  TestCases.TC002_Login_Page - ********Click on Login**********
+15:18:26.635 [main] INFO  TestCases.TC002_Login_Page - ********Verification of login Failure**********
+15:20:20.763 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml"
+15:20:21.074 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml
+
+15:20:29.259 [main] INFO  TestCases.TC002_Login_Page - ********Login/Registration Page is Opened**********
+15:20:29.342 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login/Registration Page is opened & click on signup**********
+15:20:31.253 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login form**********
+15:20:31.467 [main] INFO  TestCases.TC002_Login_Page - ********Enter Email and Password**********
+15:20:31.945 [main] INFO  TestCases.TC002_Login_Page - ********Click on Login**********
+15:20:37.591 [main] INFO  TestCases.TC002_Login_Page - ********Verification of login user**********
+15:20:40.813 [main] INFO  TestCases.TC002_Login_Page - ********Login/Registration Page is Opened**********
+15:20:40.821 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login/Registration Page is opened & click on signup**********
+15:20:43.029 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login form**********
+15:20:43.088 [main] INFO  TestCases.TC002_Login_Page - ********Enter correct email and incorrect password**********
+15:20:43.715 [main] INFO  TestCases.TC002_Login_Page - ********Click on Login**********
+15:20:43.900 [main] INFO  TestCases.TC002_Login_Page - ********Verification of login Failure**********
+15:24:04.777 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml"
+15:24:05.109 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Dell\eclipse-workspace-New\AutomationPractice\master.xml
+
+15:24:12.125 [main] INFO  TestCases.TC002_Login_Page - ********Login/Registration Page is Opened**********
+15:24:12.201 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login/Registration Page is opened & click on signup**********
+15:24:13.716 [main] INFO  TestCases.TC002_Login_Page - ********Verification of Login form**********
+15:24:13.791 [main] INFO  TestCases.TC002_Login_Page - ********Enter Email and Password**********
+15:24:14.241 [main] INFO  TestCases.TC002_Login_Page - ********Click on Login**********
+15:24:18.756 [main] INFO  TestCases.TC002_Login_Page - ********Verification of login user**********
+15:24:18.841 [main] INFO  TestCases.TC002_Login_Page - ********Logout and return Home Page**********
+15:24:20.464 [main] INFO  TestCases.TC002_Login_Page - ********Login/Registration Page is Opened**********

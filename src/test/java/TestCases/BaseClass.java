@@ -90,11 +90,11 @@ public Properties P;
 		Thread.sleep(1000);
 	}
 	
-	/*@AfterClass
+	@AfterClass
 	public void teardown()
 	{
 		driver.quit();
-	}*/
+	}
 	
 	public String randomstring() {
 		String generatedstring=RandomStringUtils.randomAlphabetic(5);

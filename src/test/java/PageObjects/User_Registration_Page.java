@@ -110,7 +110,7 @@ public class User_Registration_Page extends Base_Page {
 	WebElement deleteaccount;
 	
 	@FindBy(xpath="//b[normalize-space()='Account Deleted!']")
-	WebElement accountdeleted;
+	WebElement msgaccountdeleted;
 	
 	@FindBy(xpath="//a[@class='btn btn-primary']")
 	WebElement contiune;
@@ -243,10 +243,10 @@ public class User_Registration_Page extends Base_Page {
 	}
 	
 	public String verifyaccountdeleted() {
-		return (accountdeleted.getText());
+		return (msgaccountdeleted.getText());
 	}
 	
-	public void clikoncontinue() {
+	public void deleteclikoncontinue() {
 		contiune.click();
 	}
 

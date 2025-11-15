@@ -42,7 +42,7 @@ public class ExtentReportManager implements ITestListener {
 	    
 	    extent=new ExtentReports();
 	    extent.attachReporter(sparkReporter);
-	    extent.setSystemInfo("Application", "Opencart");
+	    extent.setSystemInfo("Application", "Automation Pracrtice");
 	    extent.setSystemInfo("Module", "Admin");
 	    extent.setSystemInfo("Sub Module", "Customers");
 	    extent.setSystemInfo("Application", "Automation Pracrtice");
@@ -64,14 +64,14 @@ public class ExtentReportManager implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		test=extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups()); //to display groups in reports
-		test.log(Status.PASS, result.getName()+"got successfully Executed");
+		test.log(Status.PASS, result.getName()+" got successfully Executed");
 	}
 
 	
 	public void onTestFailure(ITestResult result) {
 		test=extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups()); 
-		test.log(Status.FAIL, result.getName()+"got failed");
+		test.log(Status.FAIL, result.getName()+" got failed");
 		test.log(Status.INFO,result.getThrowable().getMessage());
 		
 		try {
